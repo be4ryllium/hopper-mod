@@ -1,0 +1,38 @@
+2024-01-22 22:50 -    commands.__init__ - INFO - == MCP v4.3 ==
+2024-01-22 22:50 -    commands.__init__ - DEBUG - OS : win32
+2024-01-22 22:50 -    commands.runmc - DEBUG - runmc: 'java.exe -Xms1024M -Xmx1024M -cp "../lib/;../lib/*;../bin/minecraft;../jars/bin/minecraft.jar;../jars/bin/jinput.jar;../jars/bin/lwjgl.jar;../jars/bin/lwjgl_util.jar" -Djava.library.path=../jars/bin/natives Start'
+2024-01-22 22:50 -    commands.runmc - DEBUG - 16 achievements
+2024-01-22 22:50 -    commands.runmc - DEBUG - 159 recipes
+2024-01-22 22:50 -    commands.runmc - DEBUG - org.lwjgl.LWJGLException: Failed to initialise controllers
+2024-01-22 22:50 -    commands.runmc - DEBUG - at org.lwjgl.input.Controllers.create(Controllers.java:86)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at net.minecraft.client.Minecraft.startGame(Minecraft.java:147)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at net.minecraft.client.Minecraft.run(Minecraft.java:435)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-22 22:50 -    commands.runmc - DEBUG - Caused by: java.lang.NoClassDefFoundError: net/java/games/util/plugins/Plugins
+2024-01-22 22:50 -    commands.runmc - DEBUG - at net.java.games.input.ControllerEnvironment.<clinit>(ControllerEnvironment.java:84)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at org.lwjgl.input.Controllers.create(Controllers.java:69)
+2024-01-22 22:50 -    commands.runmc - DEBUG - ... 3 more
+2024-01-22 22:50 -    commands.runmc - DEBUG - Caused by: java.lang.ClassNotFoundException: net.java.games.util.plugins.Plugins
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+2024-01-22 22:50 -    commands.runmc - DEBUG - ... 5 more
+2024-01-22 22:50 -    commands.runmc - DEBUG - 
+2024-01-22 22:50 -    commands.runmc - DEBUG - Starting up SoundSystem...
+2024-01-22 22:50 -    commands.runmc - DEBUG - Initializing LWJGL OpenAL
+2024-01-22 22:50 -    commands.runmc - DEBUG - (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+2024-01-22 22:50 -    commands.runmc - DEBUG - AL lib: (EE) GetHrtf: Incompatible format: Stereo 48000hz
+2024-01-22 22:50 -    commands.runmc - DEBUG - OpenAL initialized.
+2024-01-22 22:50 -    commands.runmc - DEBUG - 
+2024-01-22 22:50 -    commands.runmc - DEBUG - Failed to add pack.mcmeta
+2024-01-22 22:50 -    commands.runmc - DEBUG - Failed to add READ_ME_I_AM_VERY_IMPORTANT
+2024-01-22 22:50 -    commands.runmc - DEBUG - java.io.FileNotFoundException: http://s3.amazonaws.com/MinecraftResources/
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:2009)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1592)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at java.base/java.net.URL.openStream(URL.java:1161)
+2024-01-22 22:50 -    commands.runmc - DEBUG - at net.minecraft.src.ThreadDownloadResources.run(ThreadDownloadResources.java:40)
+2024-01-22 22:50 -    commands.runmc - DEBUG - Stopping!
+2024-01-22 22:50 -    commands.runmc - DEBUG - 
+2024-01-22 22:50 -    commands.runmc - DEBUG - SoundSystem shutting down...
+2024-01-22 22:50 -    commands.runmc - DEBUG - Author: Paul Lamb, www.paulscode.com
+2024-01-22 22:50 -    commands.runmc - DEBUG - 
